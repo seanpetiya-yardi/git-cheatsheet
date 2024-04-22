@@ -7,5 +7,6 @@ cheatsheet for git commands
 
 # commits
 🐈‍⬛ empty commit with **message**: `git commit --allow-empty -m "my commit message"`  
+:bug: **amend** commit message: `git commit --amend`
 
 
