@@ -9,7 +9,8 @@ cheatsheet for git commands. note `dev` is the `main` branch.
 
 # commits
 🐈‍⬛ empty commit with **message**: `git commit --allow-empty -m "my commit message"`  
-:bug: **amend** commit message: `git commit --amend`
+:bug: **amend** commit message: `git commit --amend`  
+🌭**reset** local commits w/o undoing changes: `git reset --soft`
 
 # errors
 🌊fix **upstream branch of your current branch does not match the name of your current branch**: `git branch --unset-upstream`  
