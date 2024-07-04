@@ -17,4 +17,6 @@ cheatsheet for git commands. note `dev` is the `main` branch.
 ⛵fix **there is no tracking information for the current branch**: `git pull origin dev` AND/OR `git branch --set-upstream-to=origin/dev dev`
 
 # forks
-🍴**sync** fork with upstream repo: `git merge upstream/main`
+🐶**sync** fork; _fetch_ upstream repo: `git fetch upstream`   
+🍴**sync** fork; _merge_ upstream repo: `git merge upstream/main`
+
