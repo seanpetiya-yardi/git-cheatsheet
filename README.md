@@ -14,7 +14,7 @@ cheatsheet for git commands. note `dev` is the `main` branch.
 
 # errors
 🌊fix **upstream branch of your current branch does not match the name of your current branch**: `git branch --unset-upstream`  
-⛵fix **there is no tracking information for the current branch**: `git pull origin dev` AND/OR `git branch --set-upstream-to=origin/dev dev`
+⛵fix **there is no tracking information for the current branch**: `git pull origin dev` AND/OR `git branch --set-upstream-to=origin/dev dev`  
 :hammer: fix **you have not concluded your merge (MERGE_HEAD exists)**: `git reset --abort`  
 
 # forks
