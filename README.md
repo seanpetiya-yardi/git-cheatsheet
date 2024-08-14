@@ -5,7 +5,7 @@ cheatsheet for git commands. note `dev` is the `main` branch.
 :star: **create** new branch: `git checkout -b "feature/new-branch"`  
 :scissors: **prune** old branches: `git fetch --prune`  
 🥇 **pull origin**: `git pull origin dev`  
-🍥 set the **upstream** branch: `git branch --set-upstream-to=origin/dev dev`
+🍥 set the **upstream** branch: `git branch --set-upstream-to=origin/dev dev`  
 🤖 **update** remote branches: `git remote update origin --prune`
 
 # commits
